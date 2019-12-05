@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8080
 spring:
   cloud:
     config:
@@ -8,7 +8,19 @@ spring:
         git:
           uri: https://github.com/ninadam/config-server/
           skipSslValidation: true
-          searchPaths: config, userservice
+          searchPaths: userservice
           username: ninadam
           password: luzanimetropola10
 
+#server:
+#   port: 8080
+#spring:
+#  profiles:
+#    active: native
+#  cloud:
+#     config:
+#       server:
+#           native:
+#              searchLocations: file:///C:/Users/Nina/Desktop/Lokavor/Demo/config-server/src/main/resources/config/userservice
+
+##
