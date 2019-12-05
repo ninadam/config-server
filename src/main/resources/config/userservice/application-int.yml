@@ -1,8 +1,0 @@
-spring.jpa.database: "POSTGRESQL"
-spring.datasource.platform:  "postgres"
-spring.jpa.show-sql: "false"
-spring.database.driverClassName: "org.postgresql.Driver"
-spring.datasource.url: "jdbc:postgresql://localhost:5432/lokavor_int"
-spring.datasource.username: "postgres"
-spring.datasource.password: "postgres"
-spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"

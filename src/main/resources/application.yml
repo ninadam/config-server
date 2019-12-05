@@ -6,11 +6,12 @@ spring:
       server:
         encrypt.enabled: false
         git:
-          uri: https://github.com/ninadam/config-server/
+          uri: https://github.com/ninadam/config-server
           skipSslValidation: true
-          searchPaths: userservice
-          username: ninadam
-          password: luzanimetropola10
+
+management:
+  security:
+    enabled: false
 
 #server:
 #   port: 8080
