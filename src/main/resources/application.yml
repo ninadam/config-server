@@ -8,7 +8,7 @@ spring:
         git:
           uri: https://github.com/ninadam/config-server/
           skipSslValidation: true
-          searchPaths: userservice
+          searchPaths: config, userservice
           username: ninadam
           password: luzanimetropola10
 
